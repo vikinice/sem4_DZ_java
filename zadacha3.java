@@ -66,7 +66,7 @@ public class zadacha3 {
         return num;
     }
     public static String inputStr(String text) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.print(text);
         String str = sc.nextLine();
         return str;
